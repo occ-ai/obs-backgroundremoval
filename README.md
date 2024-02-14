@@ -14,6 +14,7 @@
 A plugin for [OBS Studio](https://obsproject.com/) that allows you to replace the background in portrait images and video, as well as enhance low-light scenes.
 
 - [Introduction](#introduction)
+- [Usage](#usage)
 - [Building](#building)
   - [MacOSX](#mac-osx)
   - [Linux (Ubuntu, Arch, openSUSE)](#linux)
@@ -104,6 +105,14 @@ Image enhancement (low light) models are taken from:
 - https://github.com/PINTO0309/PINTO_model_zoo/tree/main/243_Zero-DCE-improved
 
 Some more information about how I built it: https://www.morethantechnical.com/2021/04/15/obs-plugin-for-portrait-background-removal-with-onnx-sinet-model/ and https://www.morethantechnical.com/2023/05/20/building-an-obs-background-removal-plugin-a-walkthrough/
+
+## Usage
+
+Prerequisite: OBS 28+
+
+1. Download the OS specific plugin from [Latest Releases](https://github.com/royshil/obs-backgroundremoval/releases/latest).
+2. Install the plugin.
+3. Open the filter of any video capture device and see there is a 'Background Removal' available.
 
 ## Building
 
